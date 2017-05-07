@@ -1,10 +1,15 @@
 ---
-layout: post
-title:  начал отсчет еще одного года
-published: true
-date:   2017-05-07 22:00:00 +0100
-categories: jekyll 
+layout:     post
+title:      первый пост очередного года
+published:  false
+date:       2017-05-07
+summary:    начал отсчет еще одного года
+categories: jekyll pixyll
 ---
+
 Это первый пост нового года
 
-![Лес между странами](images/20170507.jpg)
+### несколько фотографий из леса
+
+![desk](/images/IMG_4416.jpg)
+![desk](/images/IMG_4420.jpg)

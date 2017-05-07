@@ -1,8 +1,8 @@
 # Site settings
-title:       Pixyll
+title:       drafts
 email:       nikitsky@gmail.com
 author:      Valentine Nikitsky
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+description: "my version of ultimate questions of Life, the Universe, and Everything"
 baseurl:     ""
 url:         "https://nikitsky.github.io"
 date_format: "%b %-d, %Y"
@@ -17,7 +17,7 @@ google_tag_manager:
 bing_verification:
 
 # Optional features
-animated:             false
+animated:             true
 show_related_posts:   false
 show_post_footers:    false
 show_social_icons:    false
