@@ -1,13 +1,36 @@
-<footer class="center">
+<footer>
   <div class="measure">
-    <small>
-      Powered by <a href="http://jekyllrb.com">Jekyll</a> and <a href="http://www.pixyll.com">Pixyll theme</a> carfted by <a href="http://johnotander.com">John Otander</a> (<a href="https://twitter.com/4lpine">@4lpine</a>)
-    </small>
+    <div class="footer-body">
+      <small>
+        Powered by <a href="http://jekyllrb.com">Jekyll</a> and <a href="http://www.pixyll.com">Pixyll theme</a> carfted by <a href="http://johnotander.com">John Otander</a> (<a href="https://twitter.com/4lpine">@4lpine</a>)
+      </small>
+    </div>
+    <div class="footer-top">
+      <a id="scrollme" href="#top" class="footer-topButton" title="Top of page">&#8679;</a>
+    </div>
   </div>
 </footer>
+<script type="text/javascript">
+
+document.querySelector("#scrollme").href='javascript:scrollTo(document.body,0,200)';
+
+function scrollTo(element, to, duration) {
+  if (duration <= 0) return;
+  var difference = to - element.scrollTop;
+  var perTick = difference / duration * 10;
+
+  setTimeout(function() {
+    element.scrollTop = element.scrollTop + perTick;
+    if (element.scrollTop == to) return;
+    scrollTo(element, to, duration - 10);
+  }, 10);
+}
+</script>
 {% if site.enable_anchorjs %}<!-- AnchorJS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.0.0/anchor.min.js"></script>
 <script>
     anchors.options.visible = 'always';
     anchors.add('article h2, article h3, article h4, article h5, article h6');
 </script>{% endif %}
+
+

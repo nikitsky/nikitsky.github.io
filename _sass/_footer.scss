@@ -27,3 +27,35 @@ footer {
   padding: $footer-padding;
   text-align: center;
 }
+
+.footer-body {
+  float: left;
+}
+
+.footer-top {
+  float: right;
+}
+
+.footer-topButton {
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 12px;
+    border-radius: 100%;
+    transition: .1s ease;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .1) inset;
+    opacity: .75;
+    background-image: none;
+    color: $footer-color;
+}
+
+.footer-topButton:hover {
+    opacity: 1;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .1) inset, 0 2px 4px rgba(0, 0, 0, .05);
+    background-image: none;
+}
+
+.footer-topButton:focus {
+    outline: 0
+}
+
