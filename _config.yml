@@ -2,7 +2,7 @@
 title:       drafts
 email:       nikitsky@gmail.com
 author:      Valentine Nikitsky
-description: "my version of ultimate questions of Life, the Universe, and Everything"
+description: "personal recipes, know-hows and notes related to Oracle APEX, Mac OS, SQL..."
 baseurl:     ""
 url:         "https://nikitsky.github.io"
 date_format: "%b %-d, %Y"
@@ -48,10 +48,10 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: nikytsky
 bitbucket_username:
 stackoverflow_id:
-twitter_username:
+twitter_username: valnik
 skype_username:
 steam_nickname:
 google_plus_id:
