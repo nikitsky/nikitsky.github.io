@@ -36,12 +36,12 @@ java oracle.apex.APEXExport \
 ```
 
 Where:  
-* $database_ip — database server IP or hostname  
-* $port — database port, 1521 by default  
-* $sid — Your database SID  
-* $apex_developer — oracle username  
-* $secret — password  
-* $AppId - your application ID 
+* ```$database_ip``` — database server IP or hostname  
+* ```$port``` — database port, 1521 by default  
+* ```$sid``` — Your database SID  
+* ```$apex_developer``` — oracle username  
+* ```$secret``` — password  
+* ```$AppId``` - your application ID 
 
 This creates ```f{$AppId}.sql``` file in the current directory. 
 
@@ -49,6 +49,6 @@ Next step could be to split it by application components using the following com
 ```bash
 java oracle.apex.APEXExportSplitter f{$AppId}.sql
 ```
-This creates a directory f{$AppId} with number of sql files - separate file for every component. It looks quite interesting to keep the application export in a source code repository.
+This creates a directory <span class="bg-darken-1 blue">f{$AppId}</span> with number of sql files - separate file for every component. It looks quite interesting to keep the application export in a source code repository.
 
 
