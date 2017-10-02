@@ -51,4 +51,9 @@ java oracle.apex.APEXExportSplitter f{$AppId}.sql
 ```
 This creates a directory <span class="bg-darken-1 blue">f{$AppId}</span> with number of sql files - separate file for every component. It looks quite interesting to keep the application export in a source code repository.
 
+---
+Related posts:
+
+[How to import APEX apps]({{ site.baseurl }}{% post_url 2017-10-02-APEX-import %})
+
 
