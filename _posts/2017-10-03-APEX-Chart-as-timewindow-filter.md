@@ -4,6 +4,7 @@ title:      APEX Chart as a time window filter
 published:  true
 date:       2017-10-03
 summary:    How to track zoom and scroll of a chart and link it with sub-reports or sub-charts 
+image:      /images/Project_analytics.png
 categories: oracle apex charts jet
 ---
 
