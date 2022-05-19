@@ -8,6 +8,9 @@ categories: webdev
 ---
 <link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
 
+> Update on 19.05.2022  
+> Looks like it is not working in the desctibed way
+
 I get service [omg-img](https://img.icons8.com) which can supply you with tonn of icons in a very simple way: 
 just insert the ```<img>``` tag directly into your HTML. Icons8 will find the matching icon and generate it in the right style, size, and color.
 
