@@ -15,31 +15,31 @@ just insert the ```<img>``` tag directly into your HTML. Icons8 will find the ma
 
 | code | result |
 | :--- | ---: |
-| &lt;img src="https://png.icons8.com/search">| <img src="https://png.icons8.com/search"> |
-| &lt;img src="https://png.icons8.com/monitor/ff0000">| <img src="https://png.icons8.com/monitor/ff0000"> |
-| &lt;img src="https://png.icons8.com/identity_card/color">| <img src="https://png.icons8.com/identity_card/color"> |
-| &lt;img src="https://png.icons8.com/password/nolan">| <img src="https://png.icons8.com/password/nolan"> |
+| &lt;img src="https://img.icons8.com/search">| <img src="https://img.icons8.com/search"> |
+| &lt;img src="https://img.icons8.com/monitor/ff0000">| <img src="https://img.icons8.com/monitor/ff0000"> |
+| &lt;img src="https://img.icons8.com/identity_card/color">| <img src="https://img.icons8.com/identity_card/color"> |
+| &lt;img src="https://img.icons8.com/password/nolan">| <img src="https://img.icons8.com/password/nolan"> |
 
 ### There are few styles are available:
 
 <table border="0">
     <tr>
-    <td align="center"><img src="https://png.icons8.com/pic"><br>default</td>
-    <td align="center"><img src="https://png.icons8.com/pic/ios"><br>ios</td>
-    <td align="center"><img src="https://png.icons8.com/pic/color"><br>color</td>
-    <td align="center"><img src="https://png.icons8.com/pic/dusk"><br>dusk</td>
+    <td align="center"><img src="https://img.icons8.com/pic"><br>default</td>
+    <td align="center"><img src="https://img.icons8.com/pic/ios"><br>ios</td>
+    <td align="center"><img src="https://img.icons8.com/pic/color"><br>color</td>
+    <td align="center"><img src="https://img.icons8.com/pic/dusk"><br>dusk</td>
     </tr>
     <tr>
-    <td align="center"><img src="https://png.icons8.com/pic/dotty"><br>dotty</td>
-    <td align="center"><img src="https://png.icons8.com/pic/nolan"><br>nolan</td>
-    <td align="center"><img src="https://png.icons8.com/pic/office"><br>office</td>
-    <td align="center"><img src="https://png.icons8.com/pic/ultraviolet"><br>ultraviolet</td>
+    <td align="center"><img src="https://img.icons8.com/pic/dotty"><br>dotty</td>
+    <td align="center"><img src="https://img.icons8.com/pic/nolan"><br>nolan</td>
+    <td align="center"><img src="https://img.icons8.com/pic/office"><br>office</td>
+    <td align="center"><img src="https://img.icons8.com/pic/ultraviolet"><br>ultraviolet</td>
     </tr>
     <tr>
-    <td align="center"><img src="https://png.icons8.com/pic/win"><br>win</td>
-    <td align="center"><img src="https://png.icons8.com/pic/win8"><br>win8</td>
-    <td align="center"><img src="https://png.icons8.com/pic/material"><br>material</td>
-    <td align="center"><img src="https://png.icons8.com/pic/android"><br>android</td>
+    <td align="center"><img src="https://img.icons8.com/pic/win"><br>win</td>
+    <td align="center"><img src="https://img.icons8.com/pic/win8"><br>win8</td>
+    <td align="center"><img src="https://img.icons8.com/pic/material"><br>material</td>
+    <td align="center"><img src="https://img.icons8.com/pic/android"><br>android</td>
     </tr>
 </table>
 
@@ -48,15 +48,15 @@ just add the style after the icon name.
 <span class="red"> And be careful, the same icon name could be presented by different pictures in diferent styles: </span>  
 <div class="clearfix">
     <div class="col col-5 center align-bottom">
-        https://png.icons8.com/firewall/office<br>
-        <img src="https://png.icons8.com/firewall/office">
+        https://img.icons8.com/firewall/office<br>
+        <img src="https://img.icons8.com/firewall/office">
     </div>
 <div class="col col-2 center align-middle">
 <span class="red">vs</span>
 </div>
 <div class="col col-5 center align-bottom">
-       https://png.icons8.com/firewall/nolan<br>
-       <img src="https://png.icons8.com/firewall/nolan">
+       https://img.icons8.com/firewall/nolan<br>
+       <img src="https://img.icons8.com/firewall/nolan">
     </div>
 </div>
 
@@ -64,9 +64,9 @@ just add the style after the icon name.
 
 | option | url | result |
 | :----  | :--- | -----: |
-|icon color | https://png.icons8.com/firewall/ff0000 | <img src="https://png.icons8.com/firewall/ff0000"> |
-|icon size | https://png.icons8.com/firewall/16 | <img src="https://png.icons8.com/firewall/16"> |
-|size and color | https://png.icons8.com/firewall/ff0000/24 | <img src="https://png.icons8.com/firewall/ff0000/24"> |
+|icon color | https://img.icons8.com/firewall/ff0000 | <img src="https://img.icons8.com/firewall/ff0000"> |
+|icon size | https://img.icons8.com/firewall/16 | <img src="https://img.icons8.com/firewall/16"> |
+|size and color | https://img.icons8.com/firewall/ff0000/24 | <img src="https://img.icons8.com/firewall/ff0000/24"> |
 
 ### Catalogue 
 You can search over available icons using [icons8 web application](https://icons8.com/web-app) 
